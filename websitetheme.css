@@ -1,4 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+	--wooly-header-bgcolor: rgb(57, 17, 88);
+	--wooly-header-fgcolor: rgb(214, 240, 219);
+}
 *, ::before, ::after {
 	font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+}
+body {
+	margin: 0;
+}
+.wooly-header {
+	width: 100%;
+	height: 24px;
+	background-color: var(--wooly-header-bgcolor);
+	color: var(--wooly-header-fgcolor);
+	z-index: 1;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+.wooly-logo {
+	width: 72px;
+	height: 24px;
+}
+.wooly-logo a {
+	color: inherit;
+	text-decoration: none;
+	display: flex;
+	flex-direction: row;
+}
+.wooly-icon {
+	width: 24px;
+	height: 24px;
+	background-image: url('site-icon.svg');
+	background-size: 100%;
+}
+.wooly-title {
+	width: 48px;
+	height: 24px;
+	font-size: 18px;
+	font-weight: 600;
 }
