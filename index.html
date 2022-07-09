@@ -8,13 +8,25 @@
 		<link rel="stylesheet" href="websitetheme.css">
 	</head>
 	<body>
-		<div class="wooly-header">
+		<header class="wooly-header">
 			<div class="wooly-logo">
 				<a href="https://woolythewool.github.io/">
 					<div class="wooly-icon"></div>
 					<div class="wooly-title">Wooly</div>
 				</a>
 			</div>
-		</div>
+		</header>
+		<article class="wooly-content">
+			<h1>WoolyTheWool</h1>
+			<p>Welcome to Wooly's website!</p>
+		</article>
+		<footer class="wooly-footer">
+			<div id="footer-made-by">
+				<span>Made by Wooly 2022-<span id="footer-current-year"></span></span>
+			</div>
+			<script>
+				document.getElementById('footer-current-year').innerHTML = new Date().getFullYear();
+			</script>
+		</footer>
 	</body>
 </html>
