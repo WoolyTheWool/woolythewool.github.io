@@ -2,9 +2,14 @@
 :root {
 	--wooly-headerfooter-bgcolor: rgb(57, 17, 88);
 	--wooly-headerfooter-fgcolor: rgb(214, 240, 219);
+	--wooly-scrollbar-bordercolor: rgb(59, 63, 69);
+	--wooly-scrollbar-bgcolor: rgb(130, 130, 138);
+	--wooly-scrollbar-fgcolor: rgb(234, 225, 243);
+	--wooly-scrollbar-fgbordercolor: rgb(205, 186, 211);
 	--wooly-bgcolor: rgb(233, 172, 255);
 	--wooly-content-bgcolor: rgb(243, 243, 245);
 	--wooly-selection-bgcolor: rgba(139, 89, 255, 0.642);
+	--wooly-content-hrcolor: rgba(11, 5, 19, 0.187);
 }
 *, ::before, ::after {
 	font-family: 'Urbanist', Arial, Helvetica, sans-serif;
@@ -14,9 +19,25 @@
 ::selection {
 	background-color: var(--wooly-selection-bgcolor);
 }
+::-webkit-scrollbar {
+	width: 16px;
+}
+::-webkit-scrollbar-track {
+	background-color: var(--wooly-scrollbar-bgcolor);
+	border-left: 1px solid var(--wooly-scrollbar-bordercolor);
+}
+::-webkit-scrollbar-thumb {
+	background-color: var(--wooly-scrollbar-fgcolor);
+	border: 1px solid var(--wooly-scrollbar-fgbordercolor);
+	width: 16px;
+	border-radius: 8px;
+}
 body {
 	margin: 0;
 	background-color: var(--wooly-bgcolor);
+	overflow-x: hidden;
+	overflow-y: auto;
+	counter-reset: episode;
 }
 .wooly-header {
 	width: 100%;
@@ -68,12 +89,70 @@ h1 {
 	text-align: center;
 	font-size: 32px;
 	font-weight: 800;
+	text-decoration: underline;
 }
-p {
+h2 {
+	width: 80%;
+	margin-top: 0;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 28px;
+	font-weight: 700;
+	text-decoration: underline;
+}
+h3 {
+	width: 75%;
+	margin-top: 0;
+	margin-bottom: 9px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	text-decoration: underline;
+}
+h4 {
+	width: 65%;
+	margin-top: 0;
+	margin-bottom: 8px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	text-decoration: underline;
+}
+p, span, li {
 	margin-top: 0;
 	margin-bottom: 4px;
 	text-align: justify;
 	font-size: 16px;
+}
+ul {
+	padding: 0;
+	margin-left: 48px;
+}
+li {
+	list-style: none;
+}
+li::before {
+	content: '\2219';
+	font-weight: 900;
+	margin-right: 8px;
+}
+.chieftoonz-season_1-episodes_list a {
+	color: inherit;
+	text-decoration-line: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: currentColor;
+}
+.chieftoonz-season_1-episodes_list li::before {
+	counter-increment: episode;
+	content: 'S1 E' counter(episode) ': ';
+	font-weight: 500;
+	margin: 0;
+}
+hr {
+	width: 100%;
+	margin-top: 24px;
+	margin-bottom: 6px;
+	border: 1px solid var(--wooly-content-hrcolor);
 }
 .wooly-footer {
 	width: 100%;
