@@ -6,6 +6,10 @@
 	--wooly-scrollbar-bgcolor: rgb(130, 130, 138);
 	--wooly-scrollbar-fgcolor: rgb(234, 225, 243);
 	--wooly-scrollbar-fgbordercolor: rgb(205, 186, 211);
+	--wooly-linkcolor-normal: rgb(68, 5, 239);
+	--wooly-linkcolor-hover: rgb(86, 0, 190);
+	--wooly-linkcolor-active: rgb(176, 0, 108);
+	--wooly-linkcolor-visited: rgb(255, 94, 0);
 	--wooly-bgcolor: rgb(233, 172, 255);
 	--wooly-content-bgcolor: rgb(243, 243, 245);
 	--wooly-selection-bgcolor: rgba(139, 89, 255, 0.642);
@@ -56,8 +60,8 @@ body {
 	height: 24px;
 }
 .wooly-logo a {
-	color: inherit;
-	text-decoration: none;
+	color: inherit !important;
+	text-decoration: none !important;
 	display: flex;
 	flex-direction: row;
 }
@@ -123,6 +127,26 @@ p, span, li {
 	margin-bottom: 4px;
 	text-align: justify;
 	font-size: 16px;
+}
+a {
+	color: var(--wooly-linkcolor-normal);
+	text-decoration: underline dashed;
+	text-decoration-color: var(--wooly-linkcolor-normal);
+}
+a:hover {
+	color: var(--wooly-linkcolor-hover);
+	text-decoration: underline dashed;
+	text-decoration-color: var(--wooly-linkcolor-hover);
+}
+a:active {
+	color: var(--wooly-linkcolor-active);
+	text-decoration: underline dashed;
+	text-decoration-color: var(--wooly-linkcolor-active);
+}
+a:visited {
+	color: var(--wooly-linkcolor-visited);
+	text-decoration: underline dashed;
+	text-decoration-color: var(--wooly-linkcolor-visited);
 }
 sup, sub {
 	font-size: 0.5em !important;
