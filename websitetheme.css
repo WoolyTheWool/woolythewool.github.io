@@ -137,27 +137,22 @@ a {
 }
 a:hover {
 	color: var(--wooly-linkcolor-hover);
-	text-decoration: underline dashed;
 	text-decoration-color: var(--wooly-linkcolor-hover);
 }
 a:active {
 	color: var(--wooly-linkcolor-active);
-	text-decoration: underline dashed;
 	text-decoration-color: var(--wooly-linkcolor-active);
 }
 a:visited {
 	color: var(--wooly-linkcolor-visited);
-	text-decoration: underline dashed;
 	text-decoration-color: var(--wooly-linkcolor-visited);
 }
 a:visited:hover {
 	color: var(--wooly-linkcolor-visited-hover);
-	text-decoration: underline dashed;
 	text-decoration-color: var(--wooly-linkcolor-visited-hover);
 }
 a:visited:active {
 	color: var(--wooly-linkcolor-visited-active);
-	text-decoration: underline dashed;
 	text-decoration-color: var(--wooly-linkcolor-visited-active);
 }
 sup, sub {
