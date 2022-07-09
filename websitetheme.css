@@ -137,10 +137,10 @@ li::before {
 	margin-right: 8px;
 }
 .chieftoonz-season_1-episodes_list a {
-	color: inherit;
+	color: inherit !important;
 	text-decoration-line: underline;
 	text-decoration-style: dotted;
-	text-decoration-color: currentColor;
+	text-decoration-color: currentColor !important;
 }
 .chieftoonz-season_1-episodes_list li::before {
 	counter-increment: episode;
