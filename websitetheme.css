@@ -125,7 +125,7 @@ p, span, li {
 	font-size: 16px;
 }
 ::marker {
-	display: none;
+	display: none !important;
 }
 ul {
 	padding: 0;
@@ -139,7 +139,7 @@ li::before {
 	font-weight: 900;
 	margin-right: 8px;
 }
-.chieftoonz-season_1-episodes_list a:-webkit-any-link {
+.chieftoonz-season_1-episodes_list a {
 	color: inherit !important;
 	text-decoration-line: underline;
 	text-decoration-style: dotted;
