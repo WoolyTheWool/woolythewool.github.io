@@ -9,9 +9,6 @@
 	--wooly-linkcolor-normal: rgb(68, 5, 239);
 	--wooly-linkcolor-hover: rgb(86, 0, 190);
 	--wooly-linkcolor-active: rgb(176, 0, 108);
-	--wooly-linkcolor-visited: rgb(255, 94, 0);
-	--wooly-linkcolor-visited-hover: rgb(239, 59, 4);
-	--wooly-linkcolor-visited-active: rgb(219, 168, 1);
 	--wooly-bgcolor: rgb(233, 172, 255);
 	--wooly-content-bgcolor: rgb(243, 243, 245);
 	--wooly-selection-bgcolor: rgba(139, 89, 255, 0.642);
@@ -142,18 +139,6 @@ a:hover {
 a:active {
 	color: var(--wooly-linkcolor-active);
 	text-decoration-color: var(--wooly-linkcolor-active);
-}
-a:visited {
-	color: var(--wooly-linkcolor-visited);
-	text-decoration-color: var(--wooly-linkcolor-visited);
-}
-a:visited:hover {
-	color: var(--wooly-linkcolor-visited-hover);
-	text-decoration-color: var(--wooly-linkcolor-visited-hover);
-}
-a:visited:active {
-	color: var(--wooly-linkcolor-visited-active);
-	text-decoration-color: var(--wooly-linkcolor-visited-active);
 }
 sup, sub {
 	font-size: 0.5em !important;
