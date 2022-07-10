@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72">
+	<title>WoolMoji - Smiling with Heart-Eyes</title>
+	<desc>SVG WoolMojis to use anywhere</desc>
+	<style>@import url('woolmoji.css');</style>
+	<g class="woolmoji" id="smiling_face_with_heart_eyes">
+		<g class="woolmoji-head">
+			<path fill="var(--woolmoji-skin-wooly)" d="M 67 52 C 54 68 50 58 50 61 C 50 60 52 70 28 67 C 4 63 14 54 12 54 C 14 54 2 54 2 39 C 1 26 14 23 11 23 C 9 21 7 13 25 4 C 37 0 43 8 43 8 C 43 8 55 3 63 12 C 75 29 63 35 63 35 C 63 35 73 44 67 52 Z"/>
+		</g>
+		<g class="woolmoji-face">
+			<path fill="var(--woolmoji-heart-red" d="M 6 0 C 10 0 11 3 12 4 C 13 3 14 0 18 0 C 20 0 23 4 23 6 C 23 16 16 12 12 20 C 8 12 1 16 1 6 C 1 4 4 0 6 0 Z" transform="rotate(-20, 12, 6) translate(2, 21)"/>
+			<path fill="var(--woolmoji-heart-red" d="M 6 0 C 10 0 11 3 12 4 C 13 3 14 0 18 0 C 20 0 23 4 23 6 C 23 16 16 12 12 20 C 8 12 1 16 1 6 C 1 4 4 0 6 0 Z" transform="rotate(20, 12, 6) translate(41, 6)"/>
+			<path fill="var(--woolmoji-face-black)" d="M 19 41 L 50 41 C 50 64 19 64 19 44 Z"/>
+		</g>
+	</g>
+</svg>

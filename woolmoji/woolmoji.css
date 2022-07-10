@@ -1,0 +1,10 @@
+:root {
+	--woolmoji-skin-wooly: rgb(74, 255, 71);
+	--woolmoji-face-black: rgb(38, 38, 39);
+	--woolmoji-face-white: rgb(232, 235, 243);
+	--woolmoji-face-pink: rgb(255, 0, 93);
+	--woolmoji-sweat-tears: rgb(25, 159, 255);
+	--woolmoji-blush: rgba(255, 0, 170, 0.663);
+	--woolmoji-halo: rgb(255, 223, 17);
+	--woolmoji-heart-red: rgb(255, 38, 78);
+}

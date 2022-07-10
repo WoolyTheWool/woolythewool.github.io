@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72">
+	<title>WoolMoji - Blowing a Kiss</title>
+	<desc>SVG WoolMojis to use anywhere</desc>
+	<style>@import url('woolmoji.css');</style>
+	<g class="woolmoji" id="face_blowing_a_kiss">
+		<g class="woolmoji-head">
+			<path fill="var(--woolmoji-skin-wooly)" d="M 67 52 C 54 68 50 58 50 61 C 50 60 52 70 28 67 C 4 63 14 54 12 54 C 14 54 2 54 2 39 C 1 26 14 23 11 23 C 9 21 7 13 25 4 C 37 0 43 8 43 8 C 43 8 55 3 63 12 C 75 29 63 35 63 35 C 63 35 73 44 67 52 Z"/>
+			<ellipse fill="var(--woolmoji-blush)" cx="12" cy="40" rx="9" ry="6.5"/>
+			<ellipse fill="var(--woolmoji-blush)" cx="56" cy="40" rx="9" ry="6.5"/>
+		</g>
+		<g class="woolmoji-face">
+			<path fill="transparent" stroke="var(--woolmoji-face-black)" stroke-width="8" d="M 12 35 L 27 30 Z M 57 35 L 42 30 Z"/>
+			<path fill="transparent" stroke="var(--woolmoji-face-black)" stroke-width="2" d="M 30 45 C 45 39 45 45 37 49 C 45 51 45 62 30 53"/>
+		</g>
+		<g class="woolmoji-hearts-overlay">
+			<path fill="var(--woolmoji-heart-red" d="M 6 0 C 10 0 11 3 12 4 C 13 3 14 0 18 0 C 20 0 23 4 23 6 C 23 16 16 12 12 20 C 8 12 1 16 1 6 C 1 4 4 0 6 0 Z" transform="rotate(20, 12, 6) translate(54, 20) scale(1.2)"/>
+		</g>
+	</g>
+</svg>
