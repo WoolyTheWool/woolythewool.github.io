@@ -261,8 +261,8 @@ hr {
 	position: relative;
 }
 .wooly-footer a {
-	color: inherit;
-	text-decoration-color: currentColor;
+	color: inherit !important;
+	text-decoration-color: currentColor !important;
 }
 .footer-info {
 	padding: 8px;
