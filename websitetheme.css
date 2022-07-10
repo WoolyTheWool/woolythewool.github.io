@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root {
+	--wooly-shadowcolor: rgba(11, 0, 45, 0.526);
 	--wooly-headerfooter-bgcolor: rgb(57, 17, 88);
 	--wooly-headerfooter-fgcolor: rgb(214, 240, 219);
 	--wooly-scrollbar-bordercolor: rgb(59, 63, 69);
@@ -55,12 +56,10 @@ body {
 	height: 24px;
 	background-color: var(--wooly-headerfooter-bgcolor);
 	color: var(--wooly-headerfooter-fgcolor);
-	z-index: 1;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	-webkit-user-select: none;
 	user-select: none;
-	margin-bottom: 8px;
 }
 .wooly-logo {
 	width: 72px;
@@ -98,6 +97,7 @@ body {
 	align-items: center;
 	font-size: 18px;
 	padding: 8px;
+	box-shadow: 0 2px 4px 2px var(--wooly-shadowcolor);
 }
 .wooly-navigation-menu a {
 	color: inherit !important;
@@ -115,6 +115,7 @@ body {
 	max-width: 768px;
 	padding: 8px;
 	min-height: calc(100vh - 131px);
+	box-shadow: 0 4px 4px 2px var(--wooly-shadowcolor);
 }
 h1 {
 	width: 100%;
