@@ -10,9 +10,17 @@
 	--wooly-linkcolor-hover: rgb(86, 0, 190);
 	--wooly-linkcolor-active: rgb(176, 0, 108);
 	--wooly-bgcolor: rgb(233, 172, 255);
+	--wooly-navigation-bgcolor: rgb(26, 28, 27);
+	--wooly-navigation-fgcolor: rgb(232, 226, 243);
+	--wooly-navigation-separatorcolor: rgb(0, 0, 0);
 	--wooly-content-bgcolor: rgb(243, 243, 245);
 	--wooly-selection-bgcolor: rgba(139, 89, 255, 0.642);
-	--wooly-content-hrcolor: rgba(11, 5, 19, 0.187);
+	--wooly-content-hrcolor: rgba(11, 5, 19, 0.285);
+	--wooly-table-bordercolor: rgb(0, 59, 30);
+	--wooly-table-headercolor: rgb(35, 100, 0);
+	--wooly-table-headerfgcolor: rgb(240, 254, 233);
+	--wooly-table-bgcolor1: rgb(222, 255, 179);
+	--wooly-table-bgcolor2: rgb(166, 255, 159);
 }
 *, ::before, ::after {
 	font-family: 'Urbanist', Arial, Helvetica, sans-serif;
@@ -76,6 +84,28 @@ body {
 	font-size: 18px;
 	font-weight: 600;
 }
+.wooly-navigation-menu {
+	width: 100%;
+	height: 32px;
+	margin-bottom: 8px;
+	background-color: var(--wooly-navigation-bgcolor);
+	color: var(--wooly-navigation-fgcolor);
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 18px;
+	padding: 8px;
+}
+.wooly-navigation-menu a {
+	color: inherit !important;
+	text-decoration: none !important;
+	padding-right: 8px;
+	border-right: 1px solid var(--wooly-navigation-separatorcolor);
+	margin-right: 6px;
+}
 .wooly-content {
 	background-color: var(--wooly-content-bgcolor);
 	margin-left: auto;
@@ -84,6 +114,7 @@ body {
 	width: 100%;
 	max-width: 768px;
 	padding: 8px;
+	min-height: calc(100vh - 131px);
 }
 h1 {
 	width: 100%;
@@ -164,6 +195,28 @@ li::before {
 	font-weight: 900;
 	margin-right: 8px;
 }
+table {
+	width: 100%;
+	margin: 4px;
+	border-collapse: collapse;
+}
+tr {
+	width: 100%;
+}
+tr:first-child {
+	background-color: var(--wooly-table-headercolor) !important;
+	color: var(--wooly-table-headerfgcolor);
+}
+tr:nth-child(odd) {
+	background-color: var(--wooly-table-bgcolor1);
+}
+tr:nth-child(even) {
+	background-color: var(--wooly-table-bgcolor2);
+}
+td, th {
+	padding: 4px;
+	border: 1px solid var(--wooly-table-bordercolor);
+}
 .chieftoonz-season_1-episodes_list a {
 	color: inherit !important;
 	text-decoration-line: underline;
@@ -184,14 +237,22 @@ hr {
 }
 .wooly-footer {
 	width: 100%;
+	min-height: 51px;
 	background-color: var(--wooly-headerfooter-bgcolor);
 	color: var(--wooly-headerfooter-fgcolor);
 	padding: 8px;
+	padding-bottom: 27px;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	-webkit-user-select: none;
 	user-select: none;
+	position: relative;
 }
 #footer-made-by {
 	text-align: center;
+	position: absolute;
+	bottom: 8px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 192px;
 }
