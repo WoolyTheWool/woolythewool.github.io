@@ -279,3 +279,15 @@ hr {
 	transform: translateX(-50%);
 	width: 192px;
 }
+.woolmoji-container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+.woolmoji {
+	width: 72px;
+	height: 72px;
+	background-size: 100%;
+}
