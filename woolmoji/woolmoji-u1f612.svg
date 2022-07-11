@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72">
+	<title>WoolMoji - Unamused</title>
+	<desc>SVG WoolMojis to use anywhere</desc>
+	<style>@import url('woolmoji.css');</style>
+	<g class="woolmoji" id="unamused_face">
+		<g class="woolmoji-head">
+			<path fill="var(--woolmoji-skin-wooly)" d="M 67 52 C 54 68 50 58 50 61 C 50 60 52 70 28 67 C 4 63 14 54 12 54 C 14 54 2 54 2 39 C 1 26 14 23 11 23 C 9 21 7 13 25 4 C 37 0 43 8 43 8 C 43 8 55 3 63 12 C 75 29 63 35 63 35 C 63 35 73 44 67 52 Z"/>
+		</g>
+		<g class="woolmoji-face">
+			<path fill="var(--woolmoji-face-black)" d="M 23 23 C 29 23 31 27 31 30 C 31 35 27 38 24 38 C 19 38 16 35 16 30 C 16 25 19 23 23 23 Z M 46 23 C 52 23 54 27 54 30 C 54 35 50 38 47 38 C 42 38 39 35 39 30 C 39 25 42 23 46 23 Z"/>
+			<path fill="transparent" stroke="var(--woolmoji-face-black)" stroke-width="4" d="M 10 24 L 30 24 M 34 24 L 54 25 Z"/>
+			<path fill="transparent" stroke="var(--woolmoji-face-black)" stroke-width="2" d="M 50 50 C 48 35 19 46 19 47 C 19 46 50 35 50 50 Z"/>
+		</g>
+	</g>
+</svg>
