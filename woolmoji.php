@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Home - WoolyTheWool</title>
+		<title>WoolMoji - WoolyTheWool</title>
 		<link rel="icon" type="image/x-icon" href="site-icon.svg">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
