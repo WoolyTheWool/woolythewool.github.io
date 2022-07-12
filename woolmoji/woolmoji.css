@@ -1,12 +1,20 @@
 :root {
 	--woolmoji-skin-wooly: rgb(74, 255, 71);
+	--woolmoji-skin-wooly-hot: rgb(255, 102, 0);
+	--woolmoji-skin-wooly-cold: rgb(0, 255, 213);
+	--woolmoji-skin-wooly-nauseated: rgb(28, 229, 78);
 	--woolmoji-hands-wooly: rgb(28, 208, 21);
+	--woolmoji-bandages-fill: rgb(245, 252, 253);
+	--woolmoji-bandages-stroke: rgb(203, 203, 238);
 	--woolmoji-face-black: rgb(38, 38, 39);
 	--woolmoji-face-grey1: rgb(133, 141, 161);
 	--woolmoji-face-grey2: rgb(180, 184, 195);
 	--woolmoji-face-white: rgb(232, 235, 243);
 	--woolmoji-face-pink: rgb(255, 0, 93);
 	--woolmoji-face-green: rgb(59, 207, 0);
+	--woolmoji-face-mask: rgb(182, 223, 255);
+	--woolmoji-face-thermometer-fill: rgb(250, 50, 0);
+	--woolmoji-face-thermometer-stroke: rgba(73, 184, 249, 0.888);
 	--woolmoji-sweat-tears: rgb(25, 159, 255);
 	--woolmoji-blush: rgba(255, 0, 170, 0.663);
 	--woolmoji-halo: rgb(255, 223, 17);
