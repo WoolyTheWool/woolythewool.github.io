@@ -9,8 +9,8 @@
 		</g>
 		<g class="woolmoji-face">
 			<path fill="var(--woolmoji-face-white)" d="M 23 23 C 29 23 31 27 31 30 C 31 35 27 38 24 38 C 19 38 16 35 16 30 C 16 25 19 23 23 23 Z M 46 23 C 52 23 54 27 54 30 C 54 35 50 38 47 38 C 42 38 39 35 39 30 C 39 25 42 23 46 23 Z"/>
-			<ellipse fill="var(--woolmoji-face-black" cx="23" cy="28" rx="5" ry="4"/>
-			<ellipse fill="var(--woolmoji-face-black" cx="46" cy="28" rx="5" ry="4"/>
+			<ellipse fill="var(--woolmoji-face-black)" cx="23" cy="28" rx="5" ry="4"/>
+			<ellipse fill="var(--woolmoji-face-black)" cx="46" cy="28" rx="5" ry="4"/>
 			<path fill="transparent" stroke="var(--woolmoji-face-black)" stroke-width="2" d="M 50 47 L 19 48"/>
 		</g>
 	</g>

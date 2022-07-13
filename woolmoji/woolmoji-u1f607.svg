@@ -12,7 +12,7 @@
 		<g class="woolmoji-face">
 			<path fill="var(--woolmoji-face-black)" d="M 23 23 L 31 36 L 26 35 L 23 30 L 18 35 L 13 36 Z M 46 23 L 56 36 L 51 35 L 46 30 L 43 35 L 38 36 Z"/>
 			<path fill="transparent" stroke="var(--woolmoji-face-black)" stroke-width="2" d="M 50 43 C 50 60 19 60 19 43 C 19 60 50 60 50 43 Z"/>
-			<ellipse fill="transparent" stroke="var(--woolmoji-halo" stroke-width="3" cx="36" cy="10" rx="32" ry="8"/>
+			<ellipse fill="transparent" stroke="var(--woolmoji-halo)" stroke-width="3" cx="36" cy="10" rx="32" ry="8"/>
 		</g>
 	</g>
 </svg>

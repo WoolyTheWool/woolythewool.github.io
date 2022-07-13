@@ -9,7 +9,7 @@
 		</g>
 		<g class="woolmoji-face" transform="rotate(-30, 36, 36)">
 			<path fill="var(--woolmoji-face-black)" d="M 16 23 L 32 33 L 13 36 L 14 31 L 23 31.5 L 15 27 Z M 56 23 L 39 33 L 59 36 L 56 31.5 L 48 31.5 L 57 28 Z"/>
-			<path fill="var(--woolmoji-sweat-tears" d="M 16 34 C 4 30 2 30 1 36 C 2 40 2 40 16 34 Z M 57 34 C 64 30 70 30 71 36 C 70 40 66 40 57 34 Z"/>
+			<path fill="var(--woolmoji-sweat-tears)" d="M 16 34 C 4 30 2 30 1 36 C 2 40 2 40 16 34 Z M 57 34 C 64 30 70 30 71 36 C 70 40 66 40 57 34 Z"/>
 			<path fill="var(--woolmoji-face-black)" d="M 19 41 L 50 41 C 50 64 19 64 19 44 Z"/>
 		</g>
 	</g>

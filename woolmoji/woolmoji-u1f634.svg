@@ -10,9 +10,9 @@
 		<g class="woolmoji-face">
 			<path fill="transparent" stroke="var(--woolmoji-face-black)" stroke-width="4" d="M 12 30 C 12 40 27 40 27 30 M 57 30 C 57 40 42 40 42 30"/>
 			<ellipse fill="var(--woolmoji-face-black)" cx="35" cy="50" rx="6" ry="8"/>
-			<path fill="var(--woolmoji-heart-red" d="M 0 0 L 16 0 L 16 4 L 4 12 L 16 12 L 16 16 L 0 16 L 0 12 L 12 4 L 0 4 L 0 0 Z" transform="scale(0.5) translate(80, 70)"/>
-			<path fill="var(--woolmoji-heart-red" d="M 0 0 L 16 0 L 16 4 L 4 12 L 16 12 L 16 16 L 0 16 L 0 12 L 12 4 L 0 4 L 0 0 Z" transform="scale(0.75) translate(62, 30)"/>
-			<path fill="var(--woolmoji-heart-red" d="M 0 0 L 16 0 L 16 4 L 4 12 L 16 12 L 16 16 L 0 16 L 0 12 L 12 4 L 0 4 L 0 0 Z" transform=" translate(52, 4)"/>
+			<path fill="var(--woolmoji-heart-red)" d="M 0 0 L 16 0 L 16 4 L 4 12 L 16 12 L 16 16 L 0 16 L 0 12 L 12 4 L 0 4 L 0 0 Z" transform="scale(0.5) translate(80, 70)"/>
+			<path fill="var(--woolmoji-heart-red)" d="M 0 0 L 16 0 L 16 4 L 4 12 L 16 12 L 16 16 L 0 16 L 0 12 L 12 4 L 0 4 L 0 0 Z" transform="scale(0.75) translate(62, 30)"/>
+			<path fill="var(--woolmoji-heart-red)" d="M 0 0 L 16 0 L 16 4 L 4 12 L 16 12 L 16 16 L 0 16 L 0 12 L 12 4 L 0 4 L 0 0 Z" transform=" translate(52, 4)"/>
 		</g>
 	</g>
 </svg>

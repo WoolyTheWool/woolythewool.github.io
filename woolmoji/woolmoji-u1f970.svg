@@ -14,9 +14,9 @@
 			<path fill="transparent" stroke="var(--woolmoji-face-black)" stroke-width="2" d="M 50 43 C 50 60 19 60 19 43 C 19 60 50 60 50 43 Z"/>
 		</g>
 		<g class="woolmoji-hearts-overlay">
-			<path fill="var(--woolmoji-heart-red" d="M 6 0 C 10 0 11 3 12 4 C 13 3 14 0 18 0 C 20 0 23 4 23 6 C 23 16 16 12 12 20 C 8 12 1 16 1 6 C 1 4 4 0 6 0 Z" transform="translate(4, 4)"/>
-			<path fill="var(--woolmoji-heart-red" d="M 6 0 C 10 0 11 3 12 4 C 13 3 14 0 18 0 C 20 0 23 4 23 6 C 23 16 16 12 12 20 C 8 12 1 16 1 6 C 1 4 4 0 6 0 Z" transform="rotate(20, 12, 6) translate(54, 20) scale(1.2)"/>
-			<path fill="var(--woolmoji-heart-red" d="M 6 0 C 10 0 11 3 12 4 C 13 3 14 0 18 0 C 20 0 23 4 23 6 C 23 16 16 12 12 20 C 8 12 1 16 1 6 C 1 4 4 0 6 0 Z" transform="rotate(-20, 12, 6) translate(-12, 44) scale(0.75)"/>
+			<path fill="var(--woolmoji-heart-red)" d="M 6 0 C 10 0 11 3 12 4 C 13 3 14 0 18 0 C 20 0 23 4 23 6 C 23 16 16 12 12 20 C 8 12 1 16 1 6 C 1 4 4 0 6 0 Z" transform="translate(4, 4)"/>
+			<path fill="var(--woolmoji-heart-red)" d="M 6 0 C 10 0 11 3 12 4 C 13 3 14 0 18 0 C 20 0 23 4 23 6 C 23 16 16 12 12 20 C 8 12 1 16 1 6 C 1 4 4 0 6 0 Z" transform="rotate(20, 12, 6) translate(54, 20) scale(1.2)"/>
+			<path fill="var(--woolmoji-heart-red)" d="M 6 0 C 10 0 11 3 12 4 C 13 3 14 0 18 0 C 20 0 23 4 23 6 C 23 16 16 12 12 20 C 8 12 1 16 1 6 C 1 4 4 0 6 0 Z" transform="rotate(-20, 12, 6) translate(-12, 44) scale(0.75)"/>
 		</g>
 	</g>
 </svg>
